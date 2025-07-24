@@ -1,3 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
 .contact-section {
   padding: 5rem 1.5rem;
   background-color: #0a0f2c;
@@ -13,6 +24,7 @@
 .contact-left,
 .contact-right {
   flex: 1 1 450px;
+  min-width: 0;
 }
 
 .contact-tooltip {
@@ -25,6 +37,9 @@
   z-index: 50;
   white-space: nowrap;
   pointer-events: none;
+  max-width: calc(100vw - 30px);
+  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
 .gradient-text {
@@ -179,26 +194,38 @@
     align-items: center;
     text-align: center;
   }
-
   .contact-left,
   .contact-right {
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    min-width: 0;
+    max-width: 100%;
   }
-
   .contact-description {
     margin-bottom: 5rem !important;
   }
-
   .contact-links-container {
     margin-top: 0 !important;
   }
-
   .contact-form {
     align-items: center;
     width: 100%;
     padding: 0 1rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .contact-section {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+    max-width: 100vw;
+  }
+  .contact-left,
+  .contact-right {
+    flex: 1 1 100% !important;
+    max-width: 100%;
+    min-width: 0;
   }
 }
