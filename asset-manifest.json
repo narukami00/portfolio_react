@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.e2bcf10e.css",
+    "main.js": "/portfolio_react/static/js/main.8192e7e3.js",
+    "static/js/453.ffd317f4.chunk.js": "/portfolio_react/static/js/453.ffd317f4.chunk.js",
+    "static/media/MonAmi.png": "/portfolio_react/static/media/MonAmi.95b3c6632134b0d877f7.png",
+    "static/media/uniconnect.jpg": "/portfolio_react/static/media/uniconnect.1bc717a5faf49b493b37.jpg",
+    "static/media/profile_pic.jpg": "/portfolio_react/static/media/profile_pic.00c040189044b7fecc60.jpg",
+    "static/media/Shoppify.png": "/portfolio_react/static/media/Shoppify.5233bdc92ac228c12460.png",
+    "static/media/face.png": "/portfolio_react/static/media/face.6fa91850d08304a098c2.png",
+    "static/media/dino.png": "/portfolio_react/static/media/dino.640f615d4f3c1dac00e4.png",
+    "static/media/TicTacToe.png": "/portfolio_react/static/media/TicTacToe.693fd291c7c25f156092.png",
+    "static/media/perpy.png": "/portfolio_react/static/media/perpy.de51fb5aa97591f797e4.png",
+    "index.html": "/portfolio_react/index.html",
+    "main.e2bcf10e.css.map": "/portfolio_react/static/css/main.e2bcf10e.css.map",
+    "main.8192e7e3.js.map": "/portfolio_react/static/js/main.8192e7e3.js.map",
+    "453.ffd317f4.chunk.js.map": "/portfolio_react/static/js/453.ffd317f4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e2bcf10e.css",
+    "static/js/main.8192e7e3.js"
+  ]
+}
